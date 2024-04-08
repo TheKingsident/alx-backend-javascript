@@ -1,1 +1,1 @@
-# alx-backend-javascript
+This repo contains the Javascript specialization task files from ALX
