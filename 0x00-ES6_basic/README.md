@@ -1,0 +1,1 @@
+This directory containas assignment files for the "0x00. ES6 Basics" task from ALX
