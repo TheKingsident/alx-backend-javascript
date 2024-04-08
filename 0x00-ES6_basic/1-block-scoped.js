@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* eslint-disable */
+=======
+>>>>>>> ec42e454ac911cabd403f126abbb360665af9567
 export default function taskBlock(trueOrFalse) {
   let task = false;
   let task2 = true;
