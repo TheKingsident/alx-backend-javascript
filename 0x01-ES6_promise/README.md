@@ -1,0 +1,1 @@
+This directory contains assignment files for the "0x01. ES6 Promises" tasks from ALX
