@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable class-methods-use-this */
 export default class HolbertonCourse {
   constructor(name, length, students) {
@@ -45,7 +46,7 @@ export default class HolbertonCourse {
   }
 
   _validateArray(value, property) {
-    if (!Array.isArray(value) || !value.every(item => typeof item === 'string')) {
+    if (!Array.isArray(value) || !value.every((item) => typeof item === 'string')) {
       throw new TypeError('Students mmust be ab array');
     }
     return value;
