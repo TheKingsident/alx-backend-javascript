@@ -1,0 +1,1 @@
+This directory contains assignment files for the " 0x02. ES6 classes" tasks from ALX
