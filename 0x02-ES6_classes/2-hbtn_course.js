@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 export default class HolbertonCourse {
   constructor(name, length, students) {
     this._name = this._validateString(name, 'name');
