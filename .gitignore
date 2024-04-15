@@ -9,3 +9,7 @@ node_modules
 0x02-ES6_classes/package-lock.json
 0x02-ES6_classes/babel.config.js
 0x02-ES6_classes/.eslintrc.js
+0x03-ES6_data_manipulation/package.json
+0x03-ES6_data_manipulation/package-lock.json
+0x03-ES6_data_manipulation/babel.config.js
+0x03-ES6_data_manipulation/.eslintrc.js
