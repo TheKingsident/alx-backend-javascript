@@ -14,3 +14,4 @@ node_modules
 0x03-ES6_data_manipulation/package-lock.json
 0x03-ES6_data_manipulation/babel.config.js
 0x03-ES6_data_manipulation/.eslintrc.js
+0x04-TypeScript/task_0/.eslintrc.js
