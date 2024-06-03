@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const fs = require('fs');
 
 function countStudents(path) {
@@ -25,7 +26,6 @@ function countStudents(path) {
 
     // Process each student
     students.forEach(line => {
-      // eslint-disable-next-line no-unused-vars
       const [firstname, lastname, age, field] = line.split(',');
 
       if (!fields[field]) {
