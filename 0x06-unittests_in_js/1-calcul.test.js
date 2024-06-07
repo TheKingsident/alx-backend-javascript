@@ -13,9 +13,9 @@ describe('calculateNumber', function() {
 
     describe('SUBTRACT', function() {
         it('should return the difference of two rounded numbers', function() {
-            assert.equal(calculateNumber('SUBTRACT', 3.3, 7.8), 5)
-            assert.equal(calculateNumber('SUBTRACT', 7.8, 3.3), -5)
-            assert.equal(calculateNumber('SUBTRACT', 1.4, -2.6), -4);
+            assert.equal(calculateNumber('SUBTRACT', 3.3, 7.8), -5)
+            assert.equal(calculateNumber('SUBTRACT', 7.8, 3.3), 5)
+            assert.equal(calculateNumber('SUBTRACT', 1.4, -2.6), 4);
         });
     });
 
