@@ -15,7 +15,7 @@ function countStudents(path) {
     }
 
     // Remove the header line and filter out empty lines
-    const students = lines.slice(1).filter(line => line.trim() !== '');
+    const students = lines.slice(1).filter((line) => line.trim() !== '');
 
     // Log the total number of students
     console.log(`Number of students: ${students.length}`);
@@ -24,7 +24,7 @@ function countStudents(path) {
     const fields = {};
 
     // Process each student
-    students.forEach(line => {
+    students.forEach((line) => {
       const [firstname,,, field] = line.split(',');
 
       if (!fields[field]) {
