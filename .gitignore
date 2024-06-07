@@ -21,6 +21,8 @@ node_modules
 0x05-Node_JS_basic/package-lock.json
 0x05-Node_JS_basic/babel.config.js
 0x05-Node_JS_basic/.eslintrc.js
-0x05-Node_JS_basic/database.csv
 0x05-Node_JS_basic/yarn.lock
 
+0x05-Node_JS_basic/yarn.lock
+0x05-Node_JS_basic/eslint.config.mjs
+0x05-Node_JS_basic/yarn.lock
