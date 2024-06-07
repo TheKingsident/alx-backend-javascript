@@ -1,9 +1,9 @@
-const fs = require('fs');
+import { readFileSync } from 'fs';
 
 function countStudents(path) {
   try {
     // Read the file synchronously
-    const data = fs.readFileSync(path, 'utf8');
+    const data = readFileSync(path, 'utf8');
 
     // Split the file content by new lines
     const lines = data.trim().split('\n');
@@ -47,4 +47,4 @@ function countStudents(path) {
 }
 
 // Export the function for use in other files
-module.exports = countStudents;
+export default countStudents;
