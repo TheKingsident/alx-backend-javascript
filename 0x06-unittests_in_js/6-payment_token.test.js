@@ -1,3 +1,4 @@
+// 6-payment_token.test.js
 const { expect } = require('chai');
 const sinon = require('sinon');
 const getPaymentTokenFromAPI = require('./6-payment_token');
@@ -9,9 +10,9 @@ describe('getPaymentTokenFromAPI', function() {
         });
     });
 
-    it('should return a rejected promise if success is false', function() {
-        return getPaymentTokenFromAPI(false).catch(function(error) {
-            expect(error.message).to.equal('API request failed');
+    it('should return a resolved promise without data if success is false', function() {
+        return getPaymentTokenFromAPI(false).then(function(response) {
+            expect(response).to.be.undefined;
         });
     });
 });
